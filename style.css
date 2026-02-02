@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 15%, 48%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cart{
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cart__qrcode{
+    background: url(qr-code-component-main/images/image-qr-code.png) center/cover no-repeat #f0f0f0;
+    width: 100%;
+    height: 360px;
+    border-radius: 15px;
+}
+
+.cart__improve{
+    font-family: 'Outfit';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.cart__scan{
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    color: hsl(220, 15%, 55%);
+}
+
+
+@media (max-width: 430px){
+    .cart{
+        width: 350px;
+        height: 500px;
+    }
+    .cart__qrcode{
+        height: 310px;
+    }
+    .cart__improve{
+        font-size: 20px;
+    }
+    .cart__scan{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 380px){
+    .cart{
+        width: 290px;
+        height: 400px;
+    }
+    .cart__qrcode{
+        height: 250px;
+    }
+    .cart__improve{
+        font-size: 15px;
+    }
+    .cart__scan{
+        font-size: 10px;
+    }
+}
+
+
+
+
